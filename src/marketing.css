@@ -1,0 +1,24 @@
+:root {
+  --background: 150 15% 97%; --foreground: 160 15% 15%;
+  --card: 0 0% 100%; --card-foreground: 160 15% 15%;
+  --popover: 0 0% 100%; --popover-foreground: 160 15% 15%;
+  --primary: 158 80% 30%; --primary-foreground: 0 0% 100%;
+  --secondary: 150 12% 94%; --secondary-foreground: 160 15% 20%;
+  --muted: 150 12% 94%; --muted-foreground: 155 6% 43%;
+  --accent: 156 35% 93%; --accent-foreground: 158 80% 27%;
+  --border: 150 12% 88%; --input: 150 12% 84%; --ring: 158 80% 35%;
+}
+.dark {
+  --background: 160 12% 7%; --foreground: 140 9% 93%;
+  --card: 160 9% 10%; --card-foreground: 140 9% 93%;
+  --popover: 160 9% 11%; --popover-foreground: 140 9% 93%;
+  --primary: 158 65% 51%; --primary-foreground: 160 40% 8%;
+  --secondary: 160 8% 15%; --secondary-foreground: 140 9% 93%;
+  --muted: 160 8% 15%; --muted-foreground: 150 5% 60%;
+  --accent: 160 22% 15%; --accent-foreground: 158 65% 60%;
+  --border: 160 7% 18%; --input: 160 7% 23%; --ring: 158 65% 51%;
+}
+body { font-size: 13px; }
+input[type="date"], input[type="month"] { color-scheme: light; }
+.dark input[type="date"], .dark input[type="month"] { color-scheme: dark; }
+.marketing-grid { background-image: radial-gradient(hsl(var(--border)) 1px, transparent 1px); background-size: 16px 16px; }
